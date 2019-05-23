@@ -1,0 +1,28 @@
+h1 {
+  color: #00f;
+  text-align: center;
+}
+h2 {
+  color: green;
+  font-style: italic;
+  text-align: center;
+}
+p {
+  font-family: sans-serif;
+}
+ul {
+  line-height: 40px;
+}
+p {
+  color: gray;
+}
+body {
+  background-color: skyblue;
+}
+img {
+  float: right;
+  max-height: 150px;
+}
+.important {
+  color: red;
+}
