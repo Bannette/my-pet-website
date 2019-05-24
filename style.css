@@ -1,3 +1,13 @@
+#mainpicture .picture
+{
+  position:relative;
+  width:650px;
+  height:325px;
+  top:10px;
+  margin-left:10px;
+  background-image:url(profile.jpg);
+  background-repaet:no-repeat
+}
 
 h1 {
   color: #00f;
