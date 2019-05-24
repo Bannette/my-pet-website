@@ -26,3 +26,45 @@ img {
 .important {
   color: red;
 }
+.cat-climate {
+  background-color:yellow;
+}
+.test-box {
+    border: 2px solid red;
+  }
+  .test-box {
+  border-left: 2px solid red;
+  border-right: 4px solid blue;
+  border-top: 6px solid green;
+  border-bottom: 8px solid black;
+}
+.test-box {
+  border: 2px solid red;
+  padding: 6px;
+}
+.test-box {
+  border: 2px solid red;
+  padding: 6px;
+  margin: 20px;
+   background-color: skyblue;
+}
+body {
+  font-family: sans-serif;
+}
+@media screen and (min-width: 480px) {
+    body {
+        background-color;skyblue;
+        color: white;
+    }
+}
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: skyblue;
+  }
+  .column {
+    width: 200px;
+    float: left;
+    padding: 10px;
+  }
+}
