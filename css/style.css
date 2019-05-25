@@ -1,72 +1,31 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 20%;
 
-h1 {
-  color: #00f;
-  text-align: center;
-}
-h2 {
-  color: green;
-  font-style: italic;
-  text-align: center;
-}
-p {
-  font-family: sans-serif;
-}
-ul {
-  line-height: 40px;
-}
-p {
-  color: gray;
-}
-body {
-  background-color: skyblue;
-}
-img {
-  float: right;
-  max-height: 150px;
-}
-.important {
-  color: red;
-}
-.cat-climate {
-  background-color:yellow;
-}
-.test-box {
-    border: 2px solid red;
-  }
-  .test-box {
-  border-left: 2px solid red;
-  border-right: 4px solid blue;
-  border-top: 6px solid green;
-  border-bottom: 8px solid black;
-}
-.test-box {
-  border: 2px solid red;
-  padding: 6px;
-}
-.test-box {
-  border: 2px solid red;
-  padding: 6px;
-  margin: 20px;
-   background-color: skyblue;
-}
-body {
-  font-family: sans-serif;
 }
 
-@media screen and (min-width: 480px) {
-    body {
-        background-color;skyblue;
-        color: white;
-    }
+h2{
+  color:blue;
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Dancing Script', cursive;
 }
+
+
+
+li{
+  list-style-type: upper-roman;
+
 }
-@media screen and (min-width: 768px) {
-  body {
-    background-color: skyblue;
-  }
-  .column {
-    width: 200px;
-    float: left;
-    padding: 10px;
-  }
+
+p{
+  font-size: 20px;
+}
+body{
+  background-image: url("../images/background5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -4,26 +4,18 @@
 <head>
   <title>MY PET WEBSITE</title>
   <link rel="stylesheet" href="css/style.css">
-
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<canvas id="myCanvas" width="325" height="100" style="border:1px solid #d3d3d3;">
-</canvas>
-<script>
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-var grd = ctx.createLinearGradient(0,0,325,0);
-grd.addColorStop(0,"blue");
-grd.addColorStop(1,"white");
-ctx.fillStyle = grd;
-ctx.fillRect(10,10,325,80);
-ctx.font = "30px Arial";
-ctx.strokeText("MY PET WEBSITE",50,50);
-</script>
-  <div class="column">
 
-    <img src="images/profile.jpg" alt="A photo of cat and dog">
+  <nav>
+    <a href="#home">home</a>
+    <a href="#contact">contact</a>
+  </nav>
+<div class="center">
+    <img src="images/profile.jpg" style="height:600px;width:700px; border-radius:50%;" alt="A photo of cat and dog">
+  </div>
     <h2>why pets</h2>
     <div class="important">
       <p>Welcome to my<strong> pet website</strong>!</p>
@@ -39,7 +31,7 @@ ctx.strokeText("MY PET WEBSITE",50,50);
         <li>kitte</li>
         <li>And a lot more!</li>
     </div>
-    <div class="column">
+    <div id="book">
       <h2>how good is it knowing you can keep a gallery of your pets</h2>
       <p> Pets Run a better place in <span class="important"> MY HEART</span>! wooow am so emotional right now knowing I once lost a pet because I trusted someone can take care of it</p>
       <p>My pets are my family and I have a special place in my heart for each one of them. As our pets get older and sometimes develop illnesses, we are reluctant to leave them. We want to always stick around and watch them.</p>
@@ -47,7 +39,8 @@ ctx.strokeText("MY PET WEBSITE",50,50);
         makes you happy gone dull for just an hour?<span class="important"> God</span>! It always feels like forever, you just want them to get back to normal. I am committed to providing you not only the the reassurance, but the confidence that
         you need, to feel comfortable leaving your pet.</div>
       <p>I run Happy Pets on a simple philosophy, whatever your pet needs, I will take care of it while you are gone because I want the same for my pets.</p>
-      ​
+      ​<div id ="contact">
+        <p> Call 0742040690</p>
     </div>
     </ul>
 </body>
